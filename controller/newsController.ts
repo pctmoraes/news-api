@@ -11,3 +11,5 @@ class NewsController {
 
     delete(req, res) {}
 }
+
+export default new NewsController();
