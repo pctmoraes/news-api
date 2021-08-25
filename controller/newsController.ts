@@ -36,7 +36,7 @@ class NewsController {
         let news = req.body;
 
         NewsService.update(_id, news)
-            .then(news => Helper.sendResponse(res, HttpStatus.OK, `${news.title} atualizada com sucesso.`))
+            .then(news => Helper.sendResponse(res, HttpStatus.OK, "Notícia atualizada com sucesso."))
             .catch(error => console.error.bind(console, `Error ${error}`));
     }
 
