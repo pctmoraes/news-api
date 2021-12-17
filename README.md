@@ -1,9 +1,8 @@
 # news-api
 
-API que realiza um CRUD de notícias (ou artigos).<br/>
-*[API that performs a news (or articles) CRUD]*
+API que realiza um CRUD de notícias/artigos baseado no curso **Criando API's RESTful utilizando TypeScript, Node.js e mongoDB** ministrado por Thiago Adriano.
 
-# Ferramentas utilizadas / used tools 
+# ferramentas utilizadas
 
 - Node
 - Docker
